@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roots for the Future</title>
+    <link rel="stylesheet" href="css.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="top">
+        <button>Home</button>
+        <button id="aboutUsBtn">About Us</button>
+        <button>Support Us</button>
+        <button>Contact Us</button>
+    </div>
+
+    <div style="display: flex; align-items: center;">
+        <img class="image" src="resources/img3.jpg" alt="Deforested land" style="margin-right: 10px;">
+        <div class="mad">Help the Earth</div>
+    </div>
+    <img class="grass" src="resources/grass.png" alt="grass">
+
+    <div class="information">
+        <div class="head" id="head">We don't believe <br>in impending. <br>We believe in <br>taking action.</div> <!-- Added id="head" -->
+        <div class="sub">We know that many species go extinct due to deforestation, <br>but we can change this and bring back many species that have <br>disappeared from this world. According to recent estimates, <br>the world is losing 137 species of plants, animals, and insects <br>every day to deforestation. A staggering 50,000 species become <br>extinct each year just to build our homes.</div>
+    </div>
+
+    <div class="coolBoxThing"></div>
+    <img class="_74" src="resources/74.png" alt="Deforested land" style="margin-right: 10px;">
+    <div class="_53">Facts about deforestation</div>
+    <div class="Facts">• The world has been chopping down 10 million <br>hectares of trees every year<br><br>• Deforestation contributes about 4.8 million tonnes <br>of carbon dioxide a year<br><br>• Deforestation contributes about 4.8 million tonnes <br>of carbon dioxide a year<br><br>• In 2022, the world lost 11 soccer fields worth of <br>primary rainforest every minute<br><br>• Globally, soy is responsible for about 12% of <br>deforestation. because used as animal feed</div>
+    <div class="box"></div>
+
+    <script>
+        document.getElementById("aboutUsBtn").addEventListener("click", function() {
+            document.getElementById("head").scrollIntoView({
+                behavior: "smooth",
+                block: "start"
+            });
+        });
+    </script>
+</body>
+</html>

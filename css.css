@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color:#fdfbec;
+}
+
+
+.image {
+    width: 100vw;
+}
+.grass{
+    position: relative;
+    transform: translateY(-90%);
+    width: 100vw;
+
+}
+.box{
+    width: 10000000px;
+    height: 10000000px;
+    background-color: #fdfbec;
+    display: block
+}
+
+
+.top {
+    position: relative;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1vw;
+    padding: 2vh;
+    background-color: #182c24;
+}
+.top button {
+    display: inline-block;
+    padding: 2vh 3vh;
+    font-weight: 700;
+    font-size: 13 ;
+    color: #fdfbec;
+    background-color: #182c24;
+    border: 0.1vh solid #182c24;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.top button:hover {
+    background-color: rgb(183, 197, 52);
+    color: rgb(20, 46, 38);
+    transform: scale(1.05);
+}
+
+.top button:active {
+    transform: scale(0.95);
+}
+
+
+.mad {
+    position: absolute;
+    font-family: Moret, serif;
+    font-optical-sizing: auto;
+    font-weight: 8vw;
+    font-style: normal;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 10vw;
+    color: #fdfbec;
+}
+.head{
+    margin: 0px;
+    font-family: Moret, serif;
+    font-size: 2.9vw;
+    line-height: 1;
+    font-weight: 900;
+    color: rgb(20, 46, 38);
+    text-align: end;
+    transform: translateX(-63vw);
+}
+
+.sub{
+    font-family: Moret, serif;
+    transform: translateX(40vw);
+    font-size: 1.5vw;
+    font-style: italic;
+}
+._74 {
+    position: absolute;
+    width: 30vw;
+    transform: translateY(-30vh) translateX(54vw);
+    border-radius: 15px;
+}
+._53 {
+    font-family: Moret, serif;
+    color:  #fdfbec;
+    position: absolute;
+    font-size: 2.5vw;
+    transform: translateX(21vw) translateY(-18vh);
+}
+
+
+.coolBoxThing {
+    position: relative;
+    transform: translateY(40vh) translateX(25%);
+    width: 67vw;
+    height: 64vh;
+    border-radius: 15px;
+    background-color: #182c24;
+}
+
+.Facts {
+    color: #fdfbec;
+    font-size: 2.5vh;
+    transform: translateX(20vw) translateY(-7vh);
+}
